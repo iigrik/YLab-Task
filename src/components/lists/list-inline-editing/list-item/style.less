@@ -1,0 +1,64 @@
+.ListItem__header {
+  align-items: flex-start;
+  color: #000080;
+  display: flex;
+  font-family: Verdana;
+  font-size: 16px;
+  line-height: 22px;
+  position: relative;
+}
+
+.ListItem__header:before {
+  border-radius: 3px;
+  border: 2px solid #000;
+  content: '';
+  height: 6px;
+  left: -26px;
+  position: absolute;
+  top: 7px;
+  width: 6px;
+}
+
+.ListItem__title {
+  cursor: default;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.ListItem__title_editing {
+  visibility: hidden;
+}
+
+.ListItem__title-text {
+  display: inline-block;
+  line-height: 22px;
+  position: relative;
+}
+.ListItem__title-text_editable:hover {
+  color: #ffa500;
+}
+
+.ListItem__editButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  height: 100%;
+  left: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.ListItem__input {
+  flex: 0 0 auto;
+  margin-left: -100%;
+  width: 100%;
+}
+
+.ListItem__subitems {
+  padding-left: 60px;
+  margin-top: 20px;
+}

@@ -8,6 +8,7 @@ import Button from "../../components/elements/button";
 import LayoutPage from "../../components/layouts/layout-page";
 import LayoutContent from "../../components/layouts/layout-content";
 import HeaderContainer from "../header-container";
+import ListInlineEditingContainer from "../list-inline-editing-container";
 
 class Home extends Component {
 
@@ -36,6 +37,7 @@ class Home extends Component {
           <Accordion title={"Заголовок"}>
             text for accordion, with other components, ex. <Button>Button</Button>
           </Accordion>
+          <ListInlineEditingContainer/>
         </LayoutContent>
       </LayoutPage>
     );
